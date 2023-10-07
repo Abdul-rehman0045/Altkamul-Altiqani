@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
             borderRadius: BorderRadius.circular(12),
           ),
           child: TextButton(
-            child: Text('Press'),
+            child: Text('press'),
             onPressed: () {
               StackExchangePlugin.fetchQuestions();
             },
